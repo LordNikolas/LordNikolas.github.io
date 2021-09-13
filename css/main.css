@@ -52,3 +52,7 @@ li {
 .active {
     background-color: #8e04aa;
 }
+
+th, td {
+    padding: 15px;
+}
