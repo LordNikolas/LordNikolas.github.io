@@ -1,0 +1,66 @@
+
+.navbar_logo-title_base {
+    display: inline-block; 
+    float: left;
+}
+
+.navbar_pages_base {
+    display: inline-block; 
+    float: none;
+}
+
+.navbar_socials_base {
+    display: inline-block; 
+    float: right;
+    margin-right: 50px;
+}
+
+.navbar_logo {
+    padding: 0px;
+    margin: 7px 0px 0px 50px;
+}
+
+.navbar_title {
+    display: block;
+    color: white;
+    text-align: center;
+    text-align-last: auto;
+    padding: 2px 80px 2px 20px;
+    margin: 20px 0px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 1000;
+    font-variant: small-caps;
+}
+
+.navbar_button {
+    display: block;
+    color: white;
+    text-align: center;
+    text-align-last: auto;
+    padding: 15px 16px;
+    margin: 20px 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.navbar_button:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #8e04aa;
+}
+
+.fab {
+    float: right;
+    color: white;
+    padding: 8px 8px;
+    margin: 20px 5px;
+    font-size: 30px;
+}
+
+.fab:hover {
+    background-color: #111;
+}
