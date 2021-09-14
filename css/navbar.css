@@ -1,4 +1,16 @@
 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
 .navbar_logo-title_base {
     display: inline-block; 
     float: left;
@@ -47,7 +59,7 @@
 
 .navbar_button:hover:not(.active) {
     animation-name: hover;
-    animation-duration: 1s;
+    animation-duration: 600ms;
     animation-fill-mode: forwards;
     
     transform: scale(1.1);
@@ -68,7 +80,7 @@
 
 .fab:hover {
     animation-name: hover;
-    animation-duration: 1s;
+    animation-duration: 600ms;
     animation-fill-mode: forwards;
     
     transform: scale(1.1);
@@ -78,4 +90,8 @@
     100% {
         background-color: #111;
     }
+}
+
+.navbar div li {
+    float: left;
 }
