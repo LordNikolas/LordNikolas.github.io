@@ -1,0 +1,35 @@
+
+.blog_grid_base {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.blog_grid {
+    list-style-type: none;
+    float: none;
+    width: 90%;
+}
+
+.blog_grid_item {
+    display: block;
+    border: 5px solid white;
+    color: white;
+    width: 280px;
+    height: 100px;
+    padding: 10px 10px;
+    margin: 10px;
+    float: left;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blog_grid_item p {
+    font-size: 12px;
+}
+
+.blog_grid_item:hover {
+    border: 5px solid #8e04aa;
+}

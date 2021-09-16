@@ -1,0 +1,16 @@
+
+.article_back_button {
+    position: fixed;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    text-align-last: auto;
+    padding: 15px 16px;
+    margin: 20px 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.article_back_button:hover {
+    border: 5px solid #8e04aa;
+}
