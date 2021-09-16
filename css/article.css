@@ -14,3 +14,20 @@
 .article_back_button:hover {
     border: 5px solid #8e04aa;
 }
+
+.article_last_modified {
+    position: fixed;
+    color: white;
+    text-align: center;
+    text-align-last: auto;
+    padding: 15px 16px;
+    margin: 25px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    right: 0px;
+}
+
+p {
+    line-height: 30px;
+    text-indent: 60px;
+}

@@ -1,0 +1,16 @@
+
+.profile_face_pic {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 450px;
+    height: auto;
+}
+
+.page_content {
+    display: grid;
+}
+
+.profile_ul {
+    border: 5px solid white;
+}
