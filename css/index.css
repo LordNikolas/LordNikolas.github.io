@@ -1,0 +1,15 @@
+
+.index_main_img {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: auto;
+}
+
+.page_content {
+    display: grid;
+}
+
+.index_ul {
+    border: 5px solid white;
+}
