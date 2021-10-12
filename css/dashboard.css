@@ -39,7 +39,7 @@
 
 @keyframes load {
     0% { width: 0; }
-    100% { width: 70%; }
+    100% { width: 6%; }
 }
 
 .table {
