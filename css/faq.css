@@ -4,5 +4,14 @@
 }
 
 .page_content p:nth-child(even) {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
+}
+
+p {
+    width: 85%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 60px;
+    line-height: 20px;
 }
