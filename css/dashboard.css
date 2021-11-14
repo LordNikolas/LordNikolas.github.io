@@ -50,6 +50,7 @@
     border: 1px solid white; 
     margin-bottom: 50px;
     border-spacing: 5px 20px;
+    text-align: center;
 }
 
 th {
