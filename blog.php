@@ -8,12 +8,10 @@
         <link rel="icon" href="images\argus_eternal_2x_transparent.png">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/navbar.css">
-        <link rel="stylesheet" href="css/article.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/blog.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/images.css">
-        <title>Home</title>
-        <meta name="description" content="Home page of the showcase website">
+        <title>Blog</title>
     </head>
 
     <body>
@@ -23,30 +21,30 @@
             <!-- TITLE & LOGO -->
             <div class="navbar_logo-title_base">
                 <li class="navbar_logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="images\argus_eternal_2x_transparent.png" alt="argus_logo_2x_transparent">
                     </a>
                 </li>
                 <li>
                     <div>
-                        <a class="navbar_title" href="index.html">Nikolay Favorskiy</a>
-                        <a Class="navbar_title_aka" href="index.html">aka Lord Nikolas</a>
+                        <a class="navbar_title" href="index.php">Nikolay Favorskiy</a>
+                        <a Class="navbar_title_aka" href="index.php">aka Lord Nikolas</a>
                     </div>
                 </li>
             </div>
             <!-- PAGES -->
             <div class="navbar_pages_base">
                 <li>
-                    <a class="navbar_button" href="profile.html">Profile</a>
+                    <a class="navbar_button" href="profile.php">Profile</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="dashboard.html">Dashboard</a>
+                    <a class="navbar_button" href="dashboard.php">Dashboard</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="faq.html">FAQ</a>
+                    <a class="navbar_button" href="faq.php">FAQ</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="blog.html">Blog</a>
+                    <a class="navbar_button active" href="blog.php">Blog</a>
                 </li>
             </div>
             <!-- SOCIALS -->
@@ -82,68 +80,60 @@
         <!-- HEADER -->
         <header>
             <h1 class="page_title">
-                Welcome to the showcase website!
+                Blog
             </h1>
         </header>
-
+        
         <hr class="seal_line">
 
-        <article class="page_content">
-            <a href="https://hz.nl/en/study-programmes/it">
-                <img class="index_main_img" src="images/hz-logo_transparent_2.png" alt="hz_logo_transparent">
-            </a>
-            <p>
-                Hello there! My name is Nikolay Favorsky and this is my showcase website.
-                Its purpose is to introduce me to you in detail.
-                Please feel free to read, use or even distribute any information you can find here).
-            </p>
-            <div class="index_ul">
-                <p>
-                    There are multiple reasons why I chose to study HBO-ICT in HZ University of Applied Sciences:
-                </p>
-                <ul>
-                    <li>
+        <div class="blog_grid_base">
+            <ul class="blog_grid">
+                <li>
+                    <a class="blog_grid_item" href="blog/first~feedback,~code.php">
+                        Pitch Feedback, Code
                         <p>
-                            I assume that is unknowable now, 
-                            but for whatever reason in this spring my registration for the only exam in Russia for higher education was canceled.
-                            When I realized that, it was too late to appeal.
-                            That means I was forced to search options for abroad study.
-                            Otherwise I would had to serve in Russian Army for a year or so...
-                            Due to the fact, that I did not plan to study abroad, there were only a few programs to choose from.
+                            Last modified: <time datetime="2021-09-25">25.09.2021</time>
                         </p>
-                    </li>
-                    <li>
+                    </a>
+                </li>
+                <li>
+                    <a class="blog_grid_item" href="blog/first~feedback,~motivation.php">
+                        Pitch Feedback, Motivation
                         <p>
-                            But why software engineering in the first place?
-                            I have a dream to become a video game developer at some point.
-                            From my point of view, 
-                            only a proficient software engineer can bind all the required pieces of art into a single one 
-                            in order to acomplish an ambitious project like one I dream about.
+                            Last modified: <time datetime="2021-09-25">25.09.2021</time>
                         </p>
-                    </li>
-                    <li>
+                    </a>
+                </li>
+                <li>
+                    <a class="blog_grid_item" href="blog\study~choice.html">
+                        Study choice
                         <p>
-                            There were multiple universities that offered me to enroll, including Czech Technical University in Prague.
-                            For the last few years I spent a lot of my free time studying urbanism and social sciences.
-                            It could not be any other way, as I always wondered why Russian cities are so terrible in comparason with European,
-                            as well as why the quality of life and preservation of human rights are on such distant levels.
-                            I realized, that this would be the best place to learn more about such things, which may have a positive impact on 
-                            worldbuilding of my dream-game-project.
+                            Last modified: <time datetime="2021-09-15">15.09.2021</time>
                         </p>
-                    </li>
-                </ul>
-            </div>
-            <p>
-                I have no doubt that this program suits me well. The only thing left is to prove that to you ))).
-            </p>
-            <p>
-                Which might take a while..
-            </p>
-        </article>
+                    </a>
+                </li>
+                <li>
+                    <a class="blog_grid_item" href="blog/personal~swot~analysis.php">
+                        Personal SWOT analysis
+                        <p>
+                            Last modified: <time datetime="2021-09-15">15.09.2021</time>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a class="blog_grid_item" href="blog/programming~experience.php">
+                        Programming experience
+                        <p>
+                            Last modified: <time datetime="2021-09-15">15.09.2021</time>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
         <hr class="seal_line">
         <img class="bottom_seal" src="images/argus_eternal_5x.png" alt="argus_logo_5x">
-        
+
         <!-- FOOTER -->
         <footer>
             <ul class="footer">

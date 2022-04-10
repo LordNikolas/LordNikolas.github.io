@@ -5,13 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://kit.fontawesome.com/6cfea94df0.js" crossorigin="anonymous"></script>
-        <link rel="icon" href="images\argus_eternal_2x_transparent.png">
+        <link rel="icon" href="images\argus_Eternal_2x_transparent.png">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/navbar.css">
-        <link rel="stylesheet" href="css/faq.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/dashboard.css">
         <link rel="stylesheet" href="css/images.css">
-        <title>FAQ</title>
+        <title>Dashboard</title>
     </head>
 
     <body>
@@ -21,30 +21,30 @@
             <!-- TITLE & LOGO -->
             <div class="navbar_logo-title_base">
                 <li class="navbar_logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="images\argus_eternal_2x_transparent.png" alt="argus_logo_2x_transparent">
                     </a>
                 </li>
                 <li>
                     <div>
-                        <a class="navbar_title" href="index.html">Nikolay Favorskiy</a>
-                        <a Class="navbar_title_aka" href="index.html">aka Lord Nikolas</a>
+                        <a class="navbar_title" href="index.php">Nikolay Favorskiy</a>
+                        <a Class="navbar_title_aka" href="index.php">aka Lord Nikolas</a>
                     </div>
                 </li>
             </div>
             <!-- PAGES -->
             <div class="navbar_pages_base">
                 <li>
-                    <a class="navbar_button" href="profile.html">Profile</a>
+                    <a class="navbar_button" href="profile.php">Profile</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="dashboard.html">Dashboard</a>
+                    <a class="navbar_button active" href="dashboard.php">Dashboard</a>
                 </li>
                 <li>
-                    <a class="navbar_button active" href="faq.html">FAQ</a>
+                    <a class="navbar_button" href="faq.php">FAQ</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="blog.html">Blog</a>
+                    <a class="navbar_button" href="blog.php">Blog</a>
                 </li>
             </div>
             <!-- SOCIALS -->
@@ -80,44 +80,115 @@
         <!-- HEADER -->
         <header>
             <h1 class="page_title">
-                Frequently Asked Questions
+                Dashboard
             </h1>
         </header>
 
         <hr class="seal_line">
 
-        <article class="page_content">
-            <p>
-                <b>1. How can you print a document from your laptop at HZ?</b>
-            </p>
-            <p>
-                <i>---> There is at least one printer on every floor and each can be accessed with a student pass.</i>
-            </p>
-            <p>
-                <b>2. How can you scan a document and send it to your laptop at HZ?</b>
-            </p>
-            <p>
-                <i>---> Same device and same requirements.</i>
-            </p>
-            <p>
-                <b>3. What do you need to do when you are sick / show symptoms of coronavirus?</b>
-            </p>
-            <p>
-                <i>---> Isolate yourself from others, notify the Student Office and follow the classes remotely via BigBlueButton and Notion.</i>
-            </p>
-            <p>
-                <b>4. How can you book a project space in one of the wings?</b>
-            </p>
-            <p>
-                <i>---> A student can book a room on the HZ Selfservice Portal. </i>
-            </p>
-            <p>
-                <b>5. What are the instructions if you want to park your car at the HZ parking lot?</b>
-            </p>
-            <p>
-                <i>---> Free parking is available at the car park of PZEM at Poelendaelesingel 10 in Middelburg.</i>
-            </p>
-        </article>
+        <div class="progress_bar_container">
+            <div class="progress_bar">
+                <div class="progress_bar_value"></div>
+            </div>
+            <h4 class="progress_precentage">30.7%</h4>
+        </div>
+        
+        <table class="table">
+            <thead>
+                <th>Quarter</th>
+                <th>Course</th>
+                <th>EC</th>
+                <th>Exam</th>
+                <th>Grade</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Quarter #1</td>
+                    <td>Programme and Career Orientation</td>
+                    <td>2.5</td>
+                    <td>Assesment</td>
+                    <td>9.8</td>
+                </tr>
+                <tr>
+                    <td>Programming Basics</td>
+                    <td>5.0</td>
+                    <td>Case Study Exam</td>
+                    <td>9.0</td>
+                </tr>
+                <tr>
+                    <td>Computer Science Basics</td>
+                    <td>5.0</td>
+                    <td>Written Exam</td>
+                    <td>7.4</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Quarter #2</td>
+                    <td rowspan="2">Object Oriented Programming</td>
+                    <td rowspan="2">10</td>
+                    <td>Case Study</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Project</td>
+                    <td>5.5</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Quarter #3</td>
+                    <td>Framework Development 1</td>
+                    <td>5</td>
+                    <td>Case Study</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Framework Project 1</td>
+                    <td>7.5</td>
+                    <td>2 Portofolio Exams</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Quarter #4</td>
+                    <td rowspan="3">Framework Project 2</td>
+                    <td rowspan="3">10</td>
+                    <td>Portofolio Exam</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Project</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Assesment</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+            <thead>
+                <th colspan="5">Entire Year</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Personal Development</td>
+                    <td>12.5</td>
+                    <td>Portofolio</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td colspan="2">IT Personality 1</td>
+                    <td>12.5</td>
+                    <td>Project</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td colspan="2">IT Personality 2</td>
+                    <td>12.5</td>
+                    <td>Project</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+            <thead>
+                <th colspan="4">Total</th>
+                <th>-</th>
+            </thead>
+        </table>
 
         <hr class="seal_line">
         <img class="bottom_seal" src="images/argus_eternal_5x.png" alt="argus_logo_5x">
@@ -193,6 +264,6 @@
                 Nikolay Favorskiy, 2021
             </p>
         </footer>
-
+        
     </body>
 </html>

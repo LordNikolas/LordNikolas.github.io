@@ -8,11 +8,10 @@
         <link rel="icon" href="images\argus_eternal_2x_transparent.png">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/navbar.css">
-        <link rel="stylesheet" href="css/article.css">
-        <link rel="stylesheet" href="css/profile.css">
+        <link rel="stylesheet" href="css/faq.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/images.css">
-        <title>Profile</title>
+        <title>FAQ</title>
     </head>
 
     <body>
@@ -22,30 +21,30 @@
             <!-- TITLE & LOGO -->
             <div class="navbar_logo-title_base">
                 <li class="navbar_logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="images\argus_eternal_2x_transparent.png" alt="argus_logo_2x_transparent">
                     </a>
                 </li>
                 <li>
                     <div>
-                        <a class="navbar_title" href="index.html">Nikolay Favorskiy</a>
-                        <a Class="navbar_title_aka" href="index.html">aka Lord Nikolas</a>
+                        <a class="navbar_title" href="index.php">Nikolay Favorskiy</a>
+                        <a Class="navbar_title_aka" href="index.php">aka Lord Nikolas</a>
                     </div>
                 </li>
             </div>
             <!-- PAGES -->
             <div class="navbar_pages_base">
                 <li>
-                    <a class="navbar_button active" href="profile.html">Profile</a>
+                    <a class="navbar_button" href="profile.php">Profile</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="dashboard.html">Dashboard</a>
+                    <a class="navbar_button" href="dashboard.php">Dashboard</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="faq.html">FAQ</a>
+                    <a class="navbar_button active" href="faq.php">FAQ</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="blog.html">Blog</a>
+                    <a class="navbar_button" href="blog.php">Blog</a>
                 </li>
             </div>
             <!-- SOCIALS -->
@@ -77,77 +76,47 @@
                 </li>
             </div>
         </ul>
-
+            
         <!-- HEADER -->
         <header>
             <h1 class="page_title">
-                Profile 
+                Frequently Asked Questions
             </h1>
         </header>
 
         <hr class="seal_line">
 
         <article class="page_content">
-
-            <img class="profile_face_pic" src="images/face.jpg" alt="nikolas_face">
             <p>
-                Hello there again! Remind you, my name is Nikolay Favorsky, 
-                although friends usually call me Nikolas.
-                It may be unbelieveable, but I am taking the first year of ICT program at the age of 17.
-                I come from the city of my birth - Moscow, Russia.
+                <b>1. How can you print a document from your laptop at HZ?</b>
             </p>
-            <div class="profile_ul">
-                <p>
-                    Here are some facts about me:
-                </p>
-                <ul>
-                    <li>
-                        <p>
-                            My major hobby is studying video games: their architecture, game mechanics and story-telling. 
-                            I mostly do that by playing. My favourites are Hollow Knight and Dark Souls II.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            One day I wish to master the art of game developmnet and perfect the Souls-like genre. 
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            At some point of my life it occured to me: 
-                            Why Russian cities are so terrible compared to European cities? 
-                            Two years ago I started studying Urbanism to find answers. 
-                            It is safe to say that I got a little carried away.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            I am a curious human being. I have interest in understanding the purpose or meaning of everything.
-                            And I often see beauty in complexity.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Whenever I am not listening to someone else, 
-                            I tend to listen music on Spotify (Consider exploring my playlist XD). 
-                            I usually prefer soundtracks of the games that I have played in the past.
-                            It allows me to remember the very moments they are played in game.
-                            It often includes boss fights and ambient themes.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            I generally enjoy Star Wars fandom. My favourite piece in this universe is Episode III: Revenge of Sith.
-                            This film is like a renaissance painting of judgment day,
-                            where the Republic's political and spiritual power crumble into nothing.
-                            I find Emperor Palpatine the most underappreciated villain in all of the arts, 
-                            the one whose ingenius plan is absolutely unmatched in its scope.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            
-
+            <p>
+                <i>---> There is at least one printer on every floor and each can be accessed with a student pass.</i>
+            </p>
+            <p>
+                <b>2. How can you scan a document and send it to your laptop at HZ?</b>
+            </p>
+            <p>
+                <i>---> Same device and same requirements.</i>
+            </p>
+            <p>
+                <b>3. What do you need to do when you are sick / show symptoms of coronavirus?</b>
+            </p>
+            <p>
+                <i>---> Isolate yourself from others, notify the Student Office and follow the classes remotely via BigBlueButton and Notion.</i>
+            </p>
+            <p>
+                <b>4. How can you book a project space in one of the wings?</b>
+            </p>
+            <p>
+                <i>---> A student can book a room on the HZ Selfservice Portal. </i>
+            </p>
+            <p>
+                <b>5. What are the instructions if you want to park your car at the HZ parking lot?</b>
+            </p>
+            <p>
+                <i>---> Free parking is available at the car park of PZEM at Poelendaelesingel 10 in Middelburg.</i>
+            </p>
         </article>
 
         <hr class="seal_line">

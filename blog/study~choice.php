@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="../css/article.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/images.css">
-        <title>Pitch Feedback, Motivation</title>
+        <title>Study choice</title>
     </head>
 
     <body>
@@ -27,24 +27,24 @@
                 </li>
                 <li>
                     <div>
-                        <a class="navbar_title" href="../index.html">Nikolay Favorskiy</a>
-                        <a Class="navbar_title_aka" href="../index.html">aka Lord Nikolas</a>
+                        <a class="navbar_title" href="../index.php">Nikolay Favorskiy</a>
+                        <a Class="navbar_title_aka" href="../index.php">aka Lord Nikolas</a>
                     </div>
                 </li>
             </div>
             <!-- PAGES -->
             <div class="navbar_pages_base">
                 <li>
-                    <a class="navbar_button" href="../profile.html">Profile</a>
+                    <a class="navbar_button" href="../profile.php">Profile</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="../dashboard.html">Dashboard</a>
+                    <a class="navbar_button" href="../dashboard.php">Dashboard</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="../faq.html">FAQ</a>
+                    <a class="navbar_button" href="../faq.php">FAQ</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="../blog.html">Blog</a>
+                    <a class="navbar_button" href="../blog.php">Blog</a>
                 </li>
             </div>
             <!-- SOCIALS -->
@@ -77,29 +77,33 @@
             </div>
         </ul>
 
-        <a class="article_back_button" href="../blog.html">
+        <a class="article_back_button" href="../blog.php">
             Back
         </a>
 
         <a class="article_last_modified">
-            Last modified: <time datetime="2021-09-25">25.09.2021</time>
+            Last modified: <time datetime="2021-09-15">15.09.2021</time>
         </a>
 
         <!-- HEADER -->
         <header>
             <h1 class="page_title">
-                Pitch Feedback, Motivation
+                Study choice
             </h1>
         </header>
 
         <hr class="seal_line">
 
         <article class="page_content">
-            <img class="article_page_image_attachment" src="../images/pitch_feedback_motivation.png" alt="pitch_feedback_motivation">
             <p>
-                The pitch evaluation made by Daphne Heertjes concludes that 
-                I need to work on my career motivation. I need to find answers to the questions 
-                why I choose this programme and how I expect it to help me later on.
+                I am looking forward to becoming a video game developer to perfect the Souls-like genre one day. 
+                From my point of view, only a proficient software engineer can bind bind all the required pieces of art 
+                into a single one in order to acomplish such ambitious project. 
+            </p>
+            <p>
+                Thus, after or during the studies I would love to open or join a video game studio. 
+                But recently I realized that the very same mind works well for any direction of programming. 
+                So I may get hooked by web programming and data science. 
             </p>
         </article>
 
