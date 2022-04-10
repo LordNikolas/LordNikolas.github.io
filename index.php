@@ -1,8 +1,13 @@
 <?php
-    //$name = htmlspecialchars($_GET['name']);
-    $traits = [
-        'hair' => 'brown',
-        'age' => 18
-    ];
-    require 'index.view.php';
-?>
+
+require 'functions.php';
+
+class Task {
+    public $description;
+    public $completion;
+}
+
+$pdo = connectToBD();
+$tasks = fetchAllTasks($pdo);
+
+require 'index.view.php';

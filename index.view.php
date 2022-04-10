@@ -93,8 +93,14 @@
                 <img class="index_main_img" src="images/hz-logo_transparent_2.png" alt="hz_logo_transparent">
             </a>
             <ul>
-                <?php foreach ($traits as $key => $value) : ?>
-                        <li><?= $key; ?> <?= $value; ?></li>
+                <?php foreach ($tasks as $task) : ?>
+                        <li>
+                            <?php if ($task->completion) : ?>
+                                <strike> <?= $task->description; ?> </strike>
+                            <?php else : ?>
+                                <?= $task->description; ?>
+                            <?php endif; ?>
+                        </li>
                 <?php endforeach; ?>
             </ul>
             <p>
