@@ -27,24 +27,24 @@
                 </li>
                 <li>
                     <div>
-                        <a class="navbar_title" href="../index.php">Nikolay Favorskiy</a>
-                        <a Class="navbar_title_aka" href="../index.php">aka Lord Nikolas</a>
+                        <a class="navbar_title" href="../index.view.php">Nikolay Favorskiy</a>
+                        <a Class="navbar_title_aka" href="../index.view.php">aka Lord Nikolas</a>
                     </div>
                 </li>
             </div>
             <!-- PAGES -->
             <div class="navbar_pages_base">
                 <li>
-                    <a class="navbar_button" href="../profile.php">Profile</a>
+                    <a class="navbar_button" href="../profile.view.php">Profile</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="../dashboard.php">Dashboard</a>
+                    <a class="navbar_button" href="../dashboard.view.php">Dashboard</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="../faq.php">FAQ</a>
+                    <a class="navbar_button" href="../faq.view.php">FAQ</a>
                 </li>
                 <li>
-                    <a class="navbar_button" href="../blog.php">Blog</a>
+                    <a class="navbar_button" href="../blog.view.php">Blog</a>
                 </li>
             </div>
             <!-- SOCIALS -->
@@ -77,7 +77,7 @@
             </div>
         </ul>
 
-        <a class="article_back_button" href="../blog.php">
+        <a class="article_back_button" href="../blog.view.php">
             Back
         </a>
 

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://kit.fontawesome.com/6cfea94df0.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="images\argus_Eternal_2x_transparent.png">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="stylesheet" href="css/images.css">
+        <title>Dashboard</title>
+    </head>
+
+    <body>
+
+        <!-- NAVIGATION BAR -->
+        <ul class="navbar">
+            <!-- TITLE & LOGO -->
+            <div class="navbar_logo-title_base">
+                <li class="navbar_logo">
+                    <a href="index.php">
+                        <img src="images\argus_eternal_2x_transparent.png" alt="argus_logo_2x_transparent">
+                    </a>
+                </li>
+                <li>
+                    <div>
+                        <a class="navbar_title" href="index.php">Nikolay Favorskiy</a>
+                        <a Class="navbar_title_aka" href="index.php">aka Lord Nikolas</a>
+                    </div>
+                </li>
+            </div>
+            <!-- PAGES -->
+            <div class="navbar_pages_base">
+                <li>
+                    <a class="navbar_button" href="profile.php">Profile</a>
+                </li>
+                <li>
+                    <a class="navbar_button active" href="dashboard.php">Dashboard</a>
+                </li>
+                <li>
+                    <a class="navbar_button" href="faq.php">FAQ</a>
+                </li>
+                <li>
+                    <a class="navbar_button" href="blog.php">Blog</a>
+                </li>
+            </div>
+            <!-- SOCIALS -->
+            <div class="navbar_socials_base">
+                <li>
+                    <a target="_blank" href="https://discordapp.com/users/410051248964763648">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/LordNikolas">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/LordNikolas1">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://steamcommunity.com/id/lord_nikolas">
+                        <i class="fab fa-steam"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://open.spotify.com/user/p7e2dfd1divv187hkq4yz1hgl">
+                        <i class="fab fa-spotify"></i>
+                    </a>
+                </li>
+            </div>
+        </ul>
+            
+        <!-- HEADER -->
+        <header>
+            <h1 class="page_title">
+                Dashboard
+            </h1>
+        </header>
+
+        <hr class="seal_line">
+
+        <div class="progress_bar_container">
+            <div class="progress_bar">
+                <div class="progress_bar_value"></div>
+            </div>
+            <h4 class="progress_precentage">30.7%</h4>
+        </div>
+        
+        <table class="table">
+            <thead>
+                <th>Quarter</th>
+                <th>Course</th>
+                <th>EC</th>
+                <th>Exam</th>
+                <th>Grade</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Quarter #1</td>
+                    <td>Programme and Career Orientation</td>
+                    <td>2.5</td>
+                    <td>Assesment</td>
+                    <td>9.8</td>
+                </tr>
+                <tr>
+                    <td>Programming Basics</td>
+                    <td>5.0</td>
+                    <td>Case Study Exam</td>
+                    <td>9.0</td>
+                </tr>
+                <tr>
+                    <td>Computer Science Basics</td>
+                    <td>5.0</td>
+                    <td>Written Exam</td>
+                    <td>7.4</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Quarter #2</td>
+                    <td rowspan="2">Object Oriented Programming</td>
+                    <td rowspan="2">10</td>
+                    <td>Case Study</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Project</td>
+                    <td>5.5</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Quarter #3</td>
+                    <td>Framework Development 1</td>
+                    <td>5</td>
+                    <td>Case Study</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Framework Project 1</td>
+                    <td>7.5</td>
+                    <td>2 Portofolio Exams</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Quarter #4</td>
+                    <td rowspan="3">Framework Project 2</td>
+                    <td rowspan="3">10</td>
+                    <td>Portofolio Exam</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Project</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Assesment</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+            <thead>
+                <th colspan="5">Entire Year</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Personal Development</td>
+                    <td>12.5</td>
+                    <td>Portofolio</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td colspan="2">IT Personality 1</td>
+                    <td>12.5</td>
+                    <td>Project</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td colspan="2">IT Personality 2</td>
+                    <td>12.5</td>
+                    <td>Project</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+            <thead>
+                <th colspan="4">Total</th>
+                <th>-</th>
+            </thead>
+        </table>
+
+        <hr class="seal_line">
+        <img class="bottom_seal" src="images/argus_eternal_5x.png" alt="argus_logo_5x">
+
+        <!-- FOOTER -->
+        <footer>
+            <ul class="footer">
+                <div class="footer_content">
+                    <div>
+                        <ul class="footer_list">
+                            <h3>Socials</h3>
+                            <li>
+                                <a target="_blank" href="https://discordapp.com/users/410051248964763648">
+                                    Discord
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/LordNikolas">
+                                    Github
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://twitter.com/LordNikolas1">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://steamcommunity.com/id/lord_nikolas">
+                                    Steam
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://open.spotify.com/user/p7e2dfd1divv187hkq4yz1hgl">
+                                    Spotify
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer_list">
+                            <h3>Contact</h3>
+                            <li>
+                                <a target="_blank" href="mailto:lordnikolas9091@gmail.com">
+                                    lordnikolas9091@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="mailto:favo0001@hz.nl">
+                                    favo0001@hz.nl
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="tel:+79629749091">
+                                    +79629749091
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://goo.gl/maps/fCk7fUxWgRhtUZ9s6">
+                                    Boulevard Bankert 156
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://goo.gl/maps/ipxffraLDvusati4A">
+                                    4382HK Vlissingen
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+            
+            <p class="signing">
+                Nikolay Favorskiy, 2021
+            </p>
+        </footer>
+        
+    </body>
+</html>

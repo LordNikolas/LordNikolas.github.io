@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://kit.fontawesome.com/6cfea94df0.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="images\argus_eternal_2x_transparent.png">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/blog.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/images.css">
+        <title>Blog</title>
+    </head>
+
+    <body>
+
+        <!-- NAVIGATION BAR -->
+        <ul class="navbar">
+            <!-- TITLE & LOGO -->
+            <div class="navbar_logo-title_base">
+                <li class="navbar_logo">
+                    <a href="index.php">
+                        <img src="images\argus_eternal_2x_transparent.png" alt="argus_logo_2x_transparent">
+                    </a>
+                </li>
+                <li>
+                    <div>
+                        <a class="navbar_title" href="index.php">Nikolay Favorskiy</a>
+                        <a Class="navbar_title_aka" href="index.php">aka Lord Nikolas</a>
+                    </div>
+                </li>
+            </div>
+            <!-- PAGES -->
+            <div class="navbar_pages_base">
+                <li>
+                    <a class="navbar_button" href="profile.php">Profile</a>
+                </li>
+                <li>
+                    <a class="navbar_button" href="dashboard.php">Dashboard</a>
+                </li>
+                <li>
+                    <a class="navbar_button" href="faq.php">FAQ</a>
+                </li>
+                <li>
+                    <a class="navbar_button active" href="blog.php">Blog</a>
+                </li>
+            </div>
+            <!-- SOCIALS -->
+            <div class="navbar_socials_base">
+                <li>
+                    <a target="_blank" href="https://discordapp.com/users/410051248964763648">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/LordNikolas">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/LordNikolas1">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://steamcommunity.com/id/lord_nikolas">
+                        <i class="fab fa-steam"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://open.spotify.com/user/p7e2dfd1divv187hkq4yz1hgl">
+                        <i class="fab fa-spotify"></i>
+                    </a>
+                </li>
+            </div>
+        </ul>
+
+        <!-- HEADER -->
+        <header>
+            <h1 class="page_title">
+                Blog
+            </h1>
+        </header>
+        
+        <hr class="seal_line">
+
+        <div class="blog_grid_base">
+            <ul class="blog_grid">
+                <li>
+                    <a class="blog_grid_item" href="blog/first~feedback,~code.php">
+                        Pitch Feedback, Code
+                        <p>
+                            Last modified: <time datetime="2021-09-25">25.09.2021</time>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a class="blog_grid_item" href="blog/first~feedback,~motivation.php">
+                        Pitch Feedback, Motivation
+                        <p>
+                            Last modified: <time datetime="2021-09-25">25.09.2021</time>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a class="blog_grid_item" href="blog\study~choice.html">
+                        Study choice
+                        <p>
+                            Last modified: <time datetime="2021-09-15">15.09.2021</time>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a class="blog_grid_item" href="blog/personal~swot~analysis.php">
+                        Personal SWOT analysis
+                        <p>
+                            Last modified: <time datetime="2021-09-15">15.09.2021</time>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a class="blog_grid_item" href="blog/programming~experience.php">
+                        Programming experience
+                        <p>
+                            Last modified: <time datetime="2021-09-15">15.09.2021</time>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <hr class="seal_line">
+        <img class="bottom_seal" src="images/argus_eternal_5x.png" alt="argus_logo_5x">
+
+        <!-- FOOTER -->
+        <footer>
+            <ul class="footer">
+                <div class="footer_content">
+                    <div>
+                        <ul class="footer_list">
+                            <h3>Socials</h3>
+                            <li>
+                                <a target="_blank" href="https://discordapp.com/users/410051248964763648">
+                                    Discord
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/LordNikolas">
+                                    Github
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://twitter.com/LordNikolas1">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://steamcommunity.com/id/lord_nikolas">
+                                    Steam
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://open.spotify.com/user/p7e2dfd1divv187hkq4yz1hgl">
+                                    Spotify
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer_list">
+                            <h3>Contact</h3>
+                            <li>
+                                <a target="_blank" href="mailto:lordnikolas9091@gmail.com">
+                                    lordnikolas9091@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="mailto:favo0001@hz.nl">
+                                    favo0001@hz.nl
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="tel:+79629749091">
+                                    +79629749091
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://goo.gl/maps/fCk7fUxWgRhtUZ9s6">
+                                    Boulevard Bankert 156
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://goo.gl/maps/ipxffraLDvusati4A">
+                                    4382HK Vlissingen
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+            
+            <p class="signing">
+                Nikolay Favorskiy, 2021
+            </p>
+        </footer>
+
+    </body>
+</html>
