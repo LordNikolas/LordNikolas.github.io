@@ -104,7 +104,7 @@
                 <?php endforeach; ?>
             </ul>
             <p>
-                Hello there! My name is Nikolay Favorsky and this is my showcase website.
+                Hello there! My name is Nikolay Favorskiy and this is my showcase website.
                 Its purpose is to introduce me to you in detail.
                 Please feel free to read, use or even distribute any information you can find here).
             </p>
